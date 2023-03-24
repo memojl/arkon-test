@@ -22,24 +22,265 @@ Arkon Data is distributed under the terms of the GNU GPL.
  * This is a niche setting that will not be available via Global Styles.
  * https://github.com/WordPress/gutenberg/issues/35934
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
 
- @font-face {
-	font-family: 'Montserrat-Regular';
-	src: url('fonts/montserrat/Montserrat-Regular.ttf') format('ttf');	
+/*
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/montserrat/Montserrat-Regular.ttf') format('ttf');
 	font-style: normal;
 	font-weight: normal;
- }
- @font-face {
-	font-family: 'SFNS-Display-Regular';
-	src: url('fonts/SFNSdisplay/SFNS_Display_Regular.ttf') format('ttf');	
-	font-style: normal;
-	font-weight: normal;
- }
-
-
-*{
-
 }
-body{
-	font-family: 'Montserrat-Regular', Arial;
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: local('Montserrat-Regular'),
+	url('./fonts/montserrat/Montserrat-Regular.ttf') format('ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Semibold';
+	src: local('Montserrat-Semibold'),
+	url('./fonts/montserrat/Montserrat-SemiBold.ttf') format('ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: local('Montserrat-Bold'),
+	url('./fonts/montserrat/Montserrat-Bold.ttf') format('ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+*/
+@font-face {
+	font-family: 'SFNS-Display-Regular';
+	src: local('SFNS-Display-Regular'),
+		url('./fonts/SFNSdisplay/SFNS_Display_Regular.ttf') format('ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+	/*font-size: 12px;*/
+}
+
+body {
+	font-family: 'Montserrat', Arial;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.bg {
+	height: 880px;
+	background-image: url('./images/top-bg.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.bg-logo {
+	margin-top: 50px;
+	padding-left: 5%;
+}
+
+.bg-title {
+	color: white;
+	font-size: 42px;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.bg-title-box {
+	width: 614px;
+	line-height: 61px;
+	font-family: 'Montserrat';
+	font-size: 52px;
+	font-weight: 400;
+	position: absolute;
+	top: 240px;
+	right: 8%;
+}
+
+.bg-title-box-master {
+	padding-left: 35px;
+}
+
+.bg-title-box-span {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-family: 'Montserrat';
+	font-size: 52px;
+	font-weight: 600;
+}
+
+.bg-title-box-span span {
+	margin-top: 28px;
+	font-family: 'Montserrat';
+	font-size: 144px;
+	font-weight: bold;
+}
+
+.bg-title-box-get {
+	float: right;
+	margin-top: -38px;
+}
+
+.bg-title-btn {
+	/*height: 40px;*/
+	/*width: 220px;*/
+	border-radius: 17px;
+	background-color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	color: #009FDC;
+	padding: 11px 60px;
+}
+
+.bg2 {
+	height: 612px;
+	background-image: url('./images/men-black.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	z-index: 5;
+}
+
+.bg2-copy1 {
+	color: #4A4A4A;
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 25px;
+	padding-top: 50px;
+}
+
+.bg2-copy2 {
+	color: #4A4A4A;
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 25px;
+	padding-top: 20px;
+}
+
+.bg2-copy3 {
+	color: #4A4A4A;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 21px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bg2-btn {
+	border-radius: 17px;
+	background-color: #3DC0CB;
+	color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 19px;
+	padding: 11px 60px;
+}
+
+
+.container-bg3 {
+	position: relative;
+	height: 940px;
+}
+
+.bg3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 786px;
+	height: 940px;
+	background-image: url('./images/laptop1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+.bg-mt-30 {
+	margin-top: -29px !important;
+}
+
+.container-bg4 {
+	position: relative;
+	height: 770px;
+}
+
+.bg4 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 749px;
+	height: 770px;
+	background-image: url('./images/woman.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.container-bg5 {
+	position: relative;
+	height: 618px;
+	background-color: #EFEFEF;
+}
+
+.bg5 {
+	/*height: 618px;*/
+	/*background-image: url('./images/laptop2.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;*/
+}
+
+.laptop {
+	position: absolute;
+	right: 0;
+	top: -512px;
+	height: 623px;
+	width: 875px;
+	background-image: url('./images/laptop2.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.container-laptop {
+	position: relative;
+	height: 100px;
+	background-color: #0D2643;
+}
+
+footer {
+	height: 70px;
+	background-color: #071526;
+	color: #FFFFFF;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1200px) {
+	.bg {
+		background-size: auto;
+	}
 }
