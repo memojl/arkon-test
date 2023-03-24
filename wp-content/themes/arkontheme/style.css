@@ -84,6 +84,10 @@ a {
 	background-size: cover;
 }
 
+.bg-mt-30 {
+	margin-top: -29px !important;
+}
+
 .bg-black {
 	background-color: #000;
 }
@@ -105,15 +109,15 @@ a {
 .bg-title-box {
 	width: 614px;
 	line-height: 61px;
-	font-family: 'Montserrat';
-	font-size: 52px;
-	font-weight: 400;
 	position: absolute;
 	top: 240px;
 	right: 8%;
 }
 
 .bg-title-box-master {
+	font-family: 'Montserrat';
+	font-size: 52px;
+	font-weight: 400;
 	padding-left: 35px;
 }
 
@@ -158,45 +162,6 @@ a {
 	z-index: 5;
 }
 
-.bg2-copy1 {
-	color: #4A4A4A;
-	font-size: 24px;
-	letter-spacing: 0;
-	line-height: 25px;
-	padding-top: 50px;
-}
-
-.bg2-copy2 {
-	color: #4A4A4A;
-	font-size: 48px;
-	font-weight: bold;
-	letter-spacing: 0;
-	line-height: 25px;
-	padding-top: 20px;
-}
-
-.bg2-copy3 {
-	color: #4A4A4A;
-	font-size: 12px;
-	letter-spacing: 0;
-	line-height: 21px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.bg2-btn {
-	border-radius: 17px;
-	background-color: #3DC0CB;
-	color: #FFFFFF;
-	font-family: 'Montserrat';
-	font-size: 15px;
-	font-weight: bold;
-	letter-spacing: 0;
-	line-height: 19px;
-	padding: 11px 60px;
-}
-
-
 .container-bg3 {
 	position: relative;
 	height: 940px;
@@ -212,10 +177,6 @@ a {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
-}
-
-.bg-mt-30 {
-	margin-top: -29px !important;
 }
 
 .container-bg4 {
@@ -249,6 +210,67 @@ a {
 	background-size: cover;*/
 }
 
+.bg2-copy1,
+.bg3-copy1,
+.bg4-copy1 {
+	color: #4A4A4A;
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 25px;
+	padding-top: 50px;
+}
+
+.bg2-copy2,
+.bg3-copy2,
+.bg4-copy2 {
+	color: #4A4A4A;
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 25px;
+	padding-top: 8px;
+}
+
+.bg2-copy3,
+.bg4-copy3 {
+	color: #4A4A4A;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 21px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bg2-btn,
+.bg4-btn {
+	border-radius: 17px;
+	background-color: #3DC0CB;
+	color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 19px;
+	padding: 11px 60px;
+}
+
+.bg3-copy1,
+.bg3-copy2 {
+	padding-left: 140px;
+}
+
+.bg3-copy1 {
+	padding-top: 100px;
+}
+
+.bg4-copy1 {
+	padding-top: 150px;
+}
+
+.bg4-copy3 {
+	width: 330px;
+}
+
 .laptop {
 	position: absolute;
 	right: 0;
@@ -259,6 +281,79 @@ a {
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
+}
+
+.figure1 {
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	height: 94px;
+	width: 252px;
+	background: #009FDC;
+	-webkit-clip-path: polygon(99% 0, 100% 0, 66% 100%, 0 100%, 0 98%, 66% 98%);
+	clip-path: polygon(99% 0, 100% 0, 66% 100%, 0 100%, 0 98%, 66% 98%);
+}
+
+.figure2 {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	height: 156px;
+	width: 125px;
+	background: #009FDC;
+	-webkit-clip-path: polygon(36% 99%, 99% 99%, 100% 100%, 35% 100%, 0 0, 1% 0);
+	clip-path: polygon(36% 99%, 99% 99%, 100% 100%, 35% 100%, 0 0, 1% 0);
+}
+
+.bg3-items {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.bg3-items-card {
+	width: 46%;
+	padding: 2%;
+	text-align: center;
+	padding-top: 60px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.bg3-items-title-1,
+.bg3-items-title-2,
+.bg3-items-title-3,
+.bg3-items-title-4 {
+	color: #3DC0CB;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bg3-items-title-2 {
+	color: #009FDC;
+}
+
+.bg3-items-title-3 {
+	color: #174985;
+}
+
+.bg3-items-title-4 {
+	color: #0D2643;
+}
+
+.bg3-items-copy {
+	color: #4A4A4A;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 25px;
+	text-align: center;
+	padding: 0 14px;
 }
 
 .container-laptop {
@@ -282,5 +377,42 @@ footer {
 @media (max-width: 1200px) {
 	.bg {
 		background-size: auto;
+	}
+}
+
+@media (max-width: 1024px) {
+	.logo-container {
+		background: white;
+		width: 100%;
+		height: 86px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.bg-logo {
+		height: 80px;
+		margin-top: 0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 750px) {
+	.bg-title-box {
+		width: 100%;
+		padding-left: 35px;
+	}
+
+	.bg-title-box-master,
+	.bg-title-box-span {
+		font-size: 26px;
+	}
+
+	.bg-title-box-span span {
+		font-size: 100px;
 	}
 }

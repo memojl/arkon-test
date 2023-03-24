@@ -3,7 +3,9 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 bg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-arkon-data.png" class="bg-logo" alt="">
+            <div class="logo-container">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-arkon-data.png" class="bg-logo" alt="">
+            </div>
             <div class="bg-title">
                 <div class="bg-title-box">
                     <span class="bg-title-box-master">
@@ -42,11 +44,36 @@
     </div>
     <div class="row bg-mt-30">
         <div class="col-lg-12 container-bg3">
+            <div class="figure1"></div>
+            <div class="col-lg-7">&nbsp;</div>
+            <div class="col-lg-5 offset-lg-7">
+                <div class="bg3-copy1">
+                    Our
+                </div>
+                <div class="bg3-copy2">
+                    solution
+                </div>
+            </div>
             <div class="bg3"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 container-bg4">
+            <div class="figure2"></div>
+            <div class="col-lg-4 offset-lg-1">
+                <div class="bg4-copy1">
+                    Is your analysis based on updated,
+                </div>
+                <div class="bg4-copy2">
+                    trustworthy data? 
+                </div>
+                <div class="bg4-copy3">
+                    Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art letterpress hoodie occupy Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon drinking vinegar sartorial pour-over messenger bag photo booth umami next level craft beer. Tote bag 8-bit flannel dreamcatcher photo lo-fi vegan pop-up chia small batch DIY seitan asymmetrical viral. Disrupt salvia bespoke craft beer master cleanse. Butcher cornhole gentrify pop-up, raw denim viral literally.
+                </div>
+                <div>
+                    <a href="#" class="bg4-btn">Discover more</a>
+                </div>
+            </div>
             <div class="bg4"></div>
         </div>
     </div>
