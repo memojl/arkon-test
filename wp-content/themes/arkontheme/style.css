@@ -317,31 +317,11 @@ p {
 	width: 330px;
 }
 
-/*BLOCK 5 [bg5-block]*/
+/*BLOCK 5 */
 .bg5-block {
 	position: relative;
 	height: 800px;
 	background-color: #EFEFEF;
-}
-
-/*CONTAINER LAPTOP*/
-.container-laptop {
-	position: relative;
-	height: 100px;
-	background-color: #0D2643;
-}
-
-.laptop {
-	position: absolute;
-	z-index: 5;
-	right: 0;
-	top: -512px;
-	height: 623px;
-	width: 875px;
-	background-image: url('./images/laptop2.png');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;
 }
 
 /*CONTACT FORM*/
@@ -384,6 +364,7 @@ input[type=text] {
 	box-sizing: border-box !important;
 	height: 40px !important;
 	width: 98% !important;
+	max-width: 98% !important;
 	border: 2px solid #FFFFFF !important;
 	border-radius: 25px !important;
 	background-color: transparent !important;
@@ -412,6 +393,26 @@ button[type=submit] {
 
 div.wpforms-container-full {
 	width: 100%;
+}
+
+/*CONTAINER LAPTOP*/
+.container-laptop {
+	position: relative;
+	height: 100px;
+	background-color: #0D2643;
+}
+
+.laptop {
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	top: -512px;
+	height: 623px;
+	width: 875px;
+	background-image: url('./images/laptop2.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
 }
 
 /*FOOTER*/
@@ -480,6 +481,11 @@ footer a {
 }
 
 /*RESPONSIVE*/
+/**Screen*/
+@media (max-width: 1440px) {
+
+}
+
 @media (max-width: 1200px) {
 	.bg {
 		background-size: auto;

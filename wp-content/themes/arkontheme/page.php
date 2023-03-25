@@ -128,11 +128,13 @@
     <div class="row">
         <div class="col-lg-12 bg5-block">
             <div class="form-container">
-                <p class="form-copy">Get a</p>
-                <p class="form-title">
+                <p class="form-copy1">
+                    Get a
+                </p>
+                <p class="form-copy2">
                     demo
                 </p>
-                <p class="form-copy">
+                <p class="form-copy3">
                     Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache authentic craft beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse fingerstache post-ironic.
                 </p>
                 <?php the_content(); ?>
