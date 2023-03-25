@@ -135,6 +135,6 @@
             <div class="laptop"></div>
         </div>
     </div>
-    <?php //the_content();?>
+    <?php the_content();?>
 </div>
 <?php get_footer(); ?>
