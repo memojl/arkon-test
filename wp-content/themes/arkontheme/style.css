@@ -186,6 +186,7 @@ a {
 
 .bg4 {
 	position: absolute;
+	z-index: 5;
 	top: 0px;
 	right: 0px;
 	width: 749px;
@@ -198,7 +199,7 @@ a {
 
 .container-bg5 {
 	position: relative;
-	height: 618px;
+	height: 800px;
 	background-color: #EFEFEF;
 }
 
@@ -305,6 +306,18 @@ a {
 	clip-path: polygon(36% 99%, 99% 99%, 100% 100%, 35% 100%, 0 0, 1% 0);
 }
 
+.figure3{
+	position: absolute;
+	z-index: -1;
+	bottom: -1px;
+	left: 0px;
+	height: 830px;
+	width: 100%;
+	background: #EFEFEF;
+	-webkit-clip-path: polygon(0 92%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 92%, 100% 0, 100% 100%, 0% 100%);
+}
+
 .bg3-items {
 	position: relative;
 	display: flex;
@@ -371,6 +384,12 @@ footer {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+/*CONTACT FORM*/
+div.wpforms-container-full{
+	position: absolute;
+	left: 120px;
+	bottom: 80px;
 }
 
 /*RESPONSIVE*/

@@ -122,19 +122,19 @@
                 </div>
             </div>
             <div class="bg4"></div>
+            <div class="figure3"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 container-bg5">
-            <div class="bg5">
-            </div>
+            <div class="bg5"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 container-laptop">
+            <?php the_content(); ?>
             <div class="laptop"></div>
         </div>
     </div>
-    <?php the_content();?>
 </div>
 <?php get_footer(); ?>
