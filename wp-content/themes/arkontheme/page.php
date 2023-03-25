@@ -127,7 +127,6 @@
     </div>
     <div class="row">
         <div class="col-lg-12 bg5-block">
-            <div class="bg5"></div>
             <div class="form-container">
                 <p class="form-copy">Get a</p>
                 <p class="form-title">

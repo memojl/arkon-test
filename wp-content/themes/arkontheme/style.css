@@ -149,8 +149,6 @@ p {
 }
 
 .bg-title-btn {
-	/*height: 40px;*/
-	/*width: 220px;*/
 	border-radius: 17px;
 	background-color: #FFFFFF;
 	font-size: 15px;
@@ -326,14 +324,7 @@ p {
 	background-color: #EFEFEF;
 }
 
-.bg5 {
-	/*height: 618px;*/
-	/*background-image: url('./images/laptop2.png');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;*/
-}
-
+/*CONTAINER LAPTOP*/
 .container-laptop {
 	position: relative;
 	height: 100px;
