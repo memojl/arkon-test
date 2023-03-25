@@ -68,6 +68,7 @@ Arkon Data is distributed under the terms of the GNU GPL.
 	/*font-size: 12px;*/
 }
 
+/*GENERAL*/
 body {
 	font-family: 'Montserrat', Arial;
 }
@@ -76,12 +77,8 @@ a {
 	text-decoration: none !important;
 }
 
-.bg {
-	height: 880px;
-	background-image: url('./images/top-bg.png');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;
+p {
+	margin-bottom: 0 !important;
 }
 
 .bg-mt-30 {
@@ -90,6 +87,15 @@ a {
 
 .bg-black {
 	background-color: #000;
+}
+
+/*BLOCK 1*/
+.bg {
+	height: 880px;
+	background-image: url('./images/top-bg.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
 }
 
 .bg-logo {
@@ -153,6 +159,7 @@ a {
 	padding: 11px 60px;
 }
 
+/*BLOCK 2*/
 .bg2 {
 	height: 612px;
 	background-image: url('./images/men-black.png');
@@ -162,6 +169,7 @@ a {
 	z-index: 5;
 }
 
+/*BLOCK 3*/
 .container-bg3 {
 	position: relative;
 	height: 940px;
@@ -179,7 +187,59 @@ a {
 	background-size: cover;
 }
 
-.container-bg4 {
+.bg3-items {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.bg3-items-card {
+	width: 46%;
+	padding: 2%;
+	text-align: center;
+	padding-top: 60px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.bg3-items-title-1,
+.bg3-items-title-2,
+.bg3-items-title-3,
+.bg3-items-title-4 {
+	color: #3DC0CB;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bg3-items-title-2 {
+	color: #009FDC;
+}
+
+.bg3-items-title-3 {
+	color: #174985;
+}
+
+.bg3-items-title-4 {
+	color: #0D2643;
+}
+
+.bg3-items-copy {
+	color: #4A4A4A;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 25px;
+	text-align: center;
+	padding: 0 14px;
+}
+
+/*BLOCK 4*/
+.bg4-block {
 	position: relative;
 	height: 770px;
 }
@@ -197,20 +257,7 @@ a {
 	background-size: cover;
 }
 
-.container-bg5 {
-	position: relative;
-	height: 800px;
-	background-color: #EFEFEF;
-}
-
-.bg5 {
-	/*height: 618px;*/
-	/*background-image: url('./images/laptop2.png');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;*/
-}
-
+/*COPYS 2-3-4*/
 .bg2-copy1,
 .bg3-copy1,
 .bg4-copy1 {
@@ -272,8 +319,30 @@ a {
 	width: 330px;
 }
 
+/*BLOCK 5 [bg5-block]*/
+.bg5-block {
+	position: relative;
+	height: 800px;
+	background-color: #EFEFEF;
+}
+
+.bg5 {
+	/*height: 618px;*/
+	/*background-image: url('./images/laptop2.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;*/
+}
+
+.container-laptop {
+	position: relative;
+	height: 100px;
+	background-color: #0D2643;
+}
+
 .laptop {
 	position: absolute;
+	z-index: 5;
 	right: 0;
 	top: -512px;
 	height: 623px;
@@ -284,6 +353,96 @@ a {
 	background-size: cover;
 }
 
+/*CONTACT FORM*/
+.form-container {
+	position: absolute;
+	z-index: 5;
+	left: 120px;
+	bottom: 100px;
+	width: 450px;
+	height: 500px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.form-copy1 {
+	font-size: 48px;
+	letter-spacing: 0;
+	line-height: 56px;
+}
+
+.form-copy2 {
+	font-family: 'Montserrat';
+	font-size: 83px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 101px;
+}
+
+.form-copy3 {
+	font-family: 'Montserrat';
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 25px;
+	text-align: center;
+}
+
+input,
+input[type=text] {
+	box-sizing: border-box !important;
+	height: 40px !important;
+	width: 98% !important;
+	border: 2px solid #FFFFFF !important;
+	border-radius: 25px !important;
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder {
+	color: #FFFFFF !important;
+}
+
+button[type=submit] {
+	height: 40px !important;
+	width: 98% !important;
+	border-radius: 17px !important;
+	background-color: #FFFFFF !important;
+	font-family: 'Montserrat' !important;
+	font-size: 15px !important;
+	font-weight: bold !important;
+	letter-spacing: 0 !important;
+	line-height: 19px !important;
+}
+
+div.wpforms-container-full {
+	width: 100%;
+}
+
+/*FOOTER*/
+footer {
+	height: 70px;
+	background-color: #071526;
+	color: #FFFFFF;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+/*FIGURES*/
 .figure1 {
 	position: absolute;
 	top: 80px;
@@ -306,7 +465,7 @@ a {
 	clip-path: polygon(36% 99%, 99% 99%, 100% 100%, 35% 100%, 0 0, 1% 0);
 }
 
-.figure3{
+.figure3 {
 	position: absolute;
 	z-index: -1;
 	bottom: -1px;
@@ -318,78 +477,15 @@ a {
 	clip-path: polygon(0 92%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.bg3-items {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.bg3-items-card {
-	width: 46%;
-	padding: 2%;
-	text-align: center;
-	padding-top: 60px;
-	padding-left: 18px;
-	padding-right: 18px;
-}
-
-.bg3-items-title-1,
-.bg3-items-title-2,
-.bg3-items-title-3,
-.bg3-items-title-4 {
-	color: #3DC0CB;
-	font-family: Montserrat;
-	font-size: 14px;
-	font-weight: bold;
-	letter-spacing: 0;
-	line-height: 18px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.bg3-items-title-2 {
-	color: #009FDC;
-}
-
-.bg3-items-title-3 {
-	color: #174985;
-}
-
-.bg3-items-title-4 {
-	color: #0D2643;
-}
-
-.bg3-items-copy {
-	color: #4A4A4A;
-	font-size: 12px;
-	letter-spacing: 0;
-	line-height: 25px;
-	text-align: center;
-	padding: 0 14px;
-}
-
-.container-laptop {
-	position: relative;
-	height: 100px;
-	background-color: #0D2643;
-}
-
-footer {
-	height: 70px;
-	background-color: #071526;
-	color: #FFFFFF;
-	font-size: 12px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-/*CONTACT FORM*/
-div.wpforms-container-full{
+.figure4 {
 	position: absolute;
-	left: 120px;
-	bottom: 80px;
+	z-index: 1;
+	bottom: 0px;
+	left: 0px;
+	height: 692px;
+	width: 905px;
+	border-radius: 0 60px 60px 0;
+	background: linear-gradient(312.51deg, #3DC0CB 0%, #0AA4D9 22.04%, #0F4B90 82.79%, #122336 100%);
 }
 
 /*RESPONSIVE*/
