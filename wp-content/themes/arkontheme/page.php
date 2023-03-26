@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-12 bg">
+        <div class="col-xxl-12 bg">
             <div class="logo-container">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo-arkon-data.png" class="bg-logo" alt="">
             </div>
@@ -22,10 +22,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 bg2">
+        <div class="col-xxl-12 bg2">
             <div class="row">
-                <div class="col-lg-7">&nbsp;</div>
-                <div class="col-lg-3">
+                <div class="col-xxl-7 col-lg-7">&nbsp;</div>
+                <div class="col-xxl-3 col-lg-4">
                     <div class="bg2-copy1">
                         Are you really in control
                     </div>
@@ -43,10 +43,9 @@
         </div>
     </div>
     <div class="row bg-mt-30">
-        <div class="col-lg-12 container-bg3">
+        <div class="col-xxl-12 container-bg3">
             <div class="figure1"></div>
-            <div class="col-lg-7">&nbsp;</div>
-            <div class="col-lg-5 offset-lg-7">
+            <div class="col-md-5 offset-md-7">
                 <div class="bg3-copy1">
                     Our
                 </div>
@@ -105,9 +104,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 bg4-block">
+        <div class="col-xxl-12 bg4-block">
             <div class="figure2"></div>
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-xxl-4 offset-xxl-1">
                 <div class="bg4-copy1">
                     Is your analysis based on updated,
                 </div>
@@ -126,7 +125,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 bg5-block">
+        <div class="col-xxl-12 bg5-block">
+            <div class="bg5"></div>
             <div class="form-container">
                 <p class="form-copy1">
                     Get a
@@ -143,9 +143,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 container-laptop">
+        <div class="col-xxl-12 container-laptop">
             <div class="laptop"></div>
         </div>
     </div>
 </div>
+
 <?php get_footer(); ?>

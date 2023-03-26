@@ -181,7 +181,7 @@ p {
 	height: 940px;
 	background-image: url('./images/laptop1.png');
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: top right;
 	background-size: cover;
 }
 
@@ -371,11 +371,23 @@ input[type=text] {
 	color: #FFFFFF !important;
 }
 
-::placeholder,
-:-ms-input-placeholder,
-::-ms-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder {
+input::placeholder,
+input:-ms-input-placeholder,
+input::-ms-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder {
+	color: #FFFFFF !important;
+}
+
+input::placeholder {
+	color: #FFFFFF !important;
+}
+
+input::-ms-input-placeholder {
+	color: #FFFFFF !important;
+}
+
+input::-moz-placeholder {
 	color: #FFFFFF !important;
 }
 
@@ -459,7 +471,7 @@ footer a {
 
 .figure3 {
 	position: absolute;
-	z-index: -1;
+	z-index: -5;
 	bottom: -1px;
 	left: 0px;
 	height: 830px;
@@ -482,13 +494,57 @@ footer a {
 
 /*RESPONSIVE*/
 /**Screen*/
-@media (max-width: 1440px) {
+@media (max-width: 1440px) {}
 
+/**Small screen*/
+@media (max-width: 1280px) {
+	.bg3 {
+		width: 700px;
+	}
+
+	.offset-xxl-1 {
+		padding-left: 4%;
+	}
+
+	.figure1 {
+		width: 200px;
+	}
+
+	.form-container {
+		left: 6%;
+		width: 350px;
+	}
 }
 
+/**Tablet*/
 @media (max-width: 1200px) {
 	.bg {
 		background-size: auto;
+	}
+
+	.bg3 {
+		z-index: -3;
+		width: 300px;
+		height: 309px;
+		top: 162px;
+
+	}
+
+	.bg4 {
+		z-index: -3;
+		width: 300px;
+		height: 309px;
+		top: 162px;
+	}
+
+	.figure4 {
+		width: 100%;
+	}
+
+	.laptop {
+		height: 350px;
+		width: 50%;
+		top: -268%;
 	}
 }
 
@@ -513,10 +569,21 @@ footer a {
 	}
 }
 
+@media (max-width: 992px) {
+	.bg2-copy1 {
+		padding-top: 10px;
+	}
+
+	.bg-mt-30 {
+		height: 1100px;
+	}
+}
+
+/**Mobile*/
 @media (max-width: 750px) {
 	.bg-title-box {
-		width: 100%;
-		padding-left: 35px;
+		width: 50%;
+		margin: 0 auto;
 	}
 
 	.bg-title-box-master,
@@ -526,5 +593,28 @@ footer a {
 
 	.bg-title-box-span span {
 		font-size: 100px;
+	}
+
+	.bg3 {
+		top: 838px;
+		height: 360px;
+	}
+
+	.bg4 {
+		top: 480px
+	}
+
+	.laptop {
+		height: 152px;
+		width: 218px;
+		top: -53px;
+		z-index: 1;
+	}
+}
+
+@media (max-width: 660px) {
+	.bg-title-box {
+		width: 85%;
+		margin: 0 auto;
 	}
 }
