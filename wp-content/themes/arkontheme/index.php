@@ -45,8 +45,7 @@
     <div class="row bg-mt-30">
         <div class="col-xxl-12 container-bg3">
             <div class="figure1"></div>
-            <div class="col-xxl-7">&nbsp;</div>
-            <div class="col-xxl-5 offset-lg-7">
+            <div class="col-md-5 offset-md-7">
                 <div class="bg3-copy1">
                     Our
                 </div>

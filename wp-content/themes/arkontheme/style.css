@@ -574,7 +574,7 @@ footer a {
 		padding-top: 10px;
 	}
 
-	.bg-mt-30 {
+	.container-bg3 {
 		height: 1100px;
 	}
 }
@@ -616,5 +616,35 @@ footer a {
 	.bg-title-box {
 		width: 85%;
 		margin: 0 auto;
+	}
+}
+
+@media (max-width: 560px) {
+	.bg3 {
+		display: none;
+	}
+
+	.container-bg3 {
+		height: 945px;
+	}
+
+	.form-container {
+		width: 90%;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 460px) {
+	.bg3-copy1, .bg3-copy2 {
+		padding-left: inherit;
+	}
+}
+
+@media (max-width: 360px) {
+	.form-container {
+		left: 0;
 	}
 }
