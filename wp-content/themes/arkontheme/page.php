@@ -52,7 +52,6 @@
                 <div class="bg3-copy2">
                     solution
                 </div>
-
                 <div class="bg3-items">
                     <div class="bg3-items-card">
                         <div class="bg3-items-ima">
